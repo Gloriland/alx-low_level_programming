@@ -2,14 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determines either greater than 5, is less than 6, or is 0
- *
+ * main - generates random number n
+ * Description: determines whether n is 0, n > 5 or n < 6
  * Return: 0
  */
-
 int main(void)
 {
-	int n; 
+	int n;
 	int lastnum;
 
 	srand(time(0));
