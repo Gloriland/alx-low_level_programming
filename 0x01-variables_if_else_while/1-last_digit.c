@@ -4,6 +4,7 @@
 
 /**
  * main - Determines either greater than 5, is less than 6, or is 0
+ *
  * Return: Always 0 (Success)
  */
 
@@ -20,7 +21,7 @@ int main(void)
 	}
 	else if (1 == 0)
 	{
-		print("Last digit of %d is %d and is 0\n", n, 1);
+		printf("Last digit of %d is %d and is 0\n", n, 1);
 	}
 	else
 	{
