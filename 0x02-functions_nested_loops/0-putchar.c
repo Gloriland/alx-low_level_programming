@@ -1,7 +1,7 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * main - prints a string
- * Description: the string is "_putchar"
+ * Description: the string is _putchar
  *
  * Return: 0
  */
@@ -14,10 +14,10 @@ int main(void)
 	for (count = 0; count < sz; count++)
 
 	{
-		putchar(string[counter]);
+		_putchar(str[count]);
 
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
