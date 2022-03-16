@@ -14,7 +14,7 @@ int main(void)
 	for (count = 0; count < sz; count++)
 
 	{
-		_putchar(str[count]);
+		putchar(string[counter]);
 
 	}
 
