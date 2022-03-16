@@ -7,16 +7,17 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, gz;
 
+	gz = sizeof(str) / sizeof(int);
+	for (count = 0; count < gz; count++)
+
+	{
+		_putchar(str[count]);
+
+	}
+
+	_putchar('\n');
 	return (0);
 }
-
