@@ -9,10 +9,10 @@ void get_prod(char *prod, char *mult, int digit, int zeroes);
 void add_nums(char *final_prod, char *next_prod, int next_len);
 
 /**
- * find_len - FInds the lenght of a string.
+ * find_len - Finds the length of a string.
  * @str: The string to be measured.
  *
- * Return: The lenght of the string.
+ * Return: The length of the string.
  */
 int find_len(char *str)
 {
@@ -25,11 +25,11 @@ int find_len(char *str)
 }
 
 /**
- * create_xarray - Creates an array of chars and initiatlizes it with 
- *                 the character 'x'. Adds a terminating ndll byte.
+ * create_xarray - Creates an array of chars and initializes it with
+ *                 the character 'x'. Adds a terminating null byte.
  * @size: The size of the array to be initialized.
  *
- * Description: If there is insufficient space, the 
+ * Description: If there is insufficient space, the
  *              function exits with a status of 98.
  * Return: A pointer to the array.
  */
@@ -45,13 +45,14 @@ char *create_xarray(int size)
 
 	for (index = 0; index < (size - 1); index++)
 		array[index] = 'x';
-	
+
 	array[index] = '\0';
 
 	return (array);
 }
+
 /**
- * iterate_zeroes - iterates through a string of numbers containing 
+ * iterate_zeroes - Iterates through a string of numbers containing
  *                  leading zeroes until it hits a non-zero number.
  * @str: The string of numbers to be iterate through.
  *
@@ -61,6 +62,7 @@ char *iterate_zeroes(char *str)
 {
 	while (*str && *str == '0')
 		str++;
+
 	return (str);
 }
 
